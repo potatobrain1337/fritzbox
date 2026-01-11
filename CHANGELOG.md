@@ -1,5 +1,9 @@
 # Changelog
 
+# v2.3.2-community.0 - 2026-01-11
+- Community fork: remove `@mreal/digest-auth` (replaced with internal Digest auth using Node.js `crypto`)
+- Bump dependencies (`got`, `xml2js`) to address security advisories
+
 # v2.3.1 - 2021-10-06
 - Minor bugfixes
 

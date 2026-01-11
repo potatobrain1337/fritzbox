@@ -1,7 +1,7 @@
 {
   "name": "@seydx/fritzbox",
-  "version": "2.3.1",
-  "description": "A promised based utilty for accessing a fritzbox via tr064",
+  "version": "2.3.2-community.0",
+  "description": "Community-maintained fork of @seydx/fritzbox with security fixes (digest auth + dependency updates).",
   "keywords": [
     "fritzbox",
     "avm",
@@ -14,23 +14,25 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SeydX/fritzbox.git"
+    "url": "git+https://github.com/potatobrain1337/fritzbox.git"
   },
   "bugs": {
-    "url": "https://github.com/SeydX/fritzbox/issues"
+    "url": "https://github.com/potatobrain1337/fritzbox/issues"
   },
   "scripts": {
     "lint": "eslint --fix ."
   },
-  "author": "SeydX (https://github.com/SeydX/fritzbox)",
-  "homepage": "https://github.com/SeydX/fritzbox#readme",
+  "author": "SeydX (original author)",
+  "contributors": [
+    "potatobrain1337 (community maintenance)"
+  ],
+  "homepage": "https://github.com/potatobrain1337/fritzbox#readme",
   "dependencies": {
-    "@mreal/digest-auth": "^1.1.3",
     "cheerio": "^1.0.0-rc.10",
     "debug": "^4.3.2",
-    "got": "^11.8.2",
+    "got": "^11.8.6",
     "rxjs": "^7.3.1",
-    "xml2js": "^0.4.23",
+    "xml2js": "^0.6.2",
     "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {

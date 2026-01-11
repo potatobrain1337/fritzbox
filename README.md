@@ -1,6 +1,9 @@
-# @seydx/fritzbox
+# @seydx/fritzbox (community fork)
 
-> A promise based library for accessing a fritzbox via TR-064 API of an AVM Fritz!Box. Forked from [@ulfalfa](https://gitlab.com/ulfalfa/fritzbox)
+> A promise based library for accessing a Fritz!Box via TR-064 API.
+>
+> This repository is a community-maintained fork used by `homebridge-fritz-platform-community`.
+> Upstream is `SeydX/fritzbox` (forked from [@ulfalfa](https://gitlab.com/ulfalfa/fritzbox)).
 
 ## Features
 
@@ -13,7 +16,7 @@ This library is capable of:
 ## Install
 
 ```
-npm install @seydx/fritzbox
+npm install github:potatobrain1337/fritzbox#v2.3.2-community.0
 ```
 
 ## Usage
